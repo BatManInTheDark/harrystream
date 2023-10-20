@@ -11,5 +11,5 @@ COPY start.sh /start.sh
 
 EXPOSE 8080
 
-ENTRYPOINT ["/bin/bash"]
-CMD ["/start.sh"]
+ENTRYPOINT ["<your_entry_point_command>"]
+CMD ["<your_start_command>"]
